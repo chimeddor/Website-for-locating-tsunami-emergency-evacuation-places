@@ -3,6 +3,6 @@
 
 
 kakaomap API 사용. <br>
-bigData 사용.
+공공데이터포털에서 지진해일 긴급대피장소에 대한 bigData를 API로 사용.
 
 
