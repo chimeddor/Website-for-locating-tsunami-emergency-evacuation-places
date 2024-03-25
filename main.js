@@ -1,6 +1,6 @@
 const API_KEY = ''
 async function getData(){
-    // const url = `https://apis.data.go.kr/1741000/TsunamiShelter4/getTsunamiShelter4List?ServiceKey=MCdvnhHoO3EbO9MdAGcGBcgRg7YU86CD0aN4zjA%252FHpVOUlfgKUQvc6OzsAyetPhSTJEceWP87mz8wFWYfElZbg%253D%253D&pageNo=1&numOfRows=10&type=json`
+
     const url = `https://apis.data.go.kr/1741000/TsunamiShelter4/getTsunamiShelter4List?ServiceKey=${API_KEY}&pageNo=1&numOfRows=10&type=json`
     
     const response = await fetch(url);
